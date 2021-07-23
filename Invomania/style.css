@@ -41,6 +41,15 @@
     padding: 30px;
     font-family: fantasy;
   }
+  .conclusion{
+    background-color: rgb(58, 146, 204); border: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px;
+  
+  }
   .challenge{
     background-color: rgb(255, 25, 25); border: black;
     display: flex;
@@ -102,6 +111,20 @@
     opacity: 1;
 }
 
+.benefits h2{
+   
+  opacity: 0;
+}
+.benefits h3{
+ 
+  opacity: 0;
+}
+.benefits:hover h2{
+  opacity: 1;
+}
+.benefits:hover h3{
+  opacity: 1;
+}
 
 
 .material h1{
